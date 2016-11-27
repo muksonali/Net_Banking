@@ -1,0 +1,4 @@
+create table tbladmin(usernames varchar(10),passwords varchar(10));
+insert into tbladmin(usernames,passwords) values('admin','admin');
+select * from tbladmin;
+create table tblcustomer(acountnumber varchar(100),password varchar(100),dated varchar(100),fullname varchar(100),address varchar(100),contactnumber varchar(100));
